@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Heading from './components/heading'
 import reportWebVitals from './reportWebVitals';
 
 const arr = ["List1", "List2", "List3"]
@@ -10,7 +9,7 @@ const arr = ["List1", "List2", "List3"]
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <React.StrictMode>
-   <App/>
+   <App country="india" name="dhfjygy" heading="uihyuiyuiy"/>
  </React.StrictMode>
 );
 
