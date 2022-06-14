@@ -1,5 +1,4 @@
 function Author(props) {
-    console.log(props);
     return ( 
         <>
             <div>
